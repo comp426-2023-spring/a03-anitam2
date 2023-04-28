@@ -1,27 +1,22 @@
 {
-  "name": "node-rpsls",
-  "version": "1.0.0",
-  "description": "a03",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \\\\\\\"Error: no test specified\\\\\\\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/comp426-2023-spring/a03-anitam2.git"
-  },
-  "author": "anitam2",
-  "license": "MIT",
-  "bin": {
-    "node-rps": "./bin/rps-cli.js",
-    "node-rpsls": "./bin/rpsls-cli.js"
-  },
-  "bugs": {
-    "url": "https://github.com/comp426-2023-spring/a03-anitam2/issues"
-  },
-  "homepage": "https://github.com/comp426-2023-spring/a03-anitam2#readme",
-  "type": "module",
-  "dependencies": {
-    "minimist": "^1.2.8"
+    "type": "module",
+    "name": "node-rpsls",
+    "version": "1.0.0",
+    "description": "fucking cocksuckers",
+    "main": "./lib/rpsls.js",
+    "bin": {
+      "node-rps": "./bin/rps-cli.js",
+      "node-rpsls": "./bin/rpsls-cli.js"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "minimist": "^1.2.8"
+    }
   }
-}
+
+
+  
