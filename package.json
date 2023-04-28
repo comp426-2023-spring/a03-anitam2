@@ -11,7 +11,7 @@
     "url": "git+https://github.com/comp426-2023-spring/a03-anitam2.git"
   },
   "author": "anitam2",
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "bin": {
     "node-rps": "./bin/rps-cli.js",
     "node-rpsls": "./bin/rpsls-cli.js"
@@ -20,5 +20,8 @@
     "url": "https://github.com/comp426-2023-spring/a03-anitam2/issues"
   },
   "homepage": "https://github.com/comp426-2023-spring/a03-anitam2#readme",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
 }
