@@ -3,7 +3,7 @@
 import { rpsls } from "../lib/rpsls.js";
 import minimist from 'minimist'
 
-// const args = minimist(process.argv.slice(2))
+const args = minimist(process.argv.slice(2))
 // if (args.h || args.help) {
 // 	console.log(rpsls("help"));
 // } else if (args.r || args.rules) {
