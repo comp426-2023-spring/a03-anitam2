@@ -6,13 +6,10 @@ import minimist from 'minimist'
 const args = minimist(process.argv.slice(2))
 if (args.h || args.help) {
 	console.log(rpsls("help"));
-} 
-else if (args.r || args.rules) {
+} else if (args.r || args.rules) {
 	console.log(rpsls("rules"));
-} 
-else if (args._.length === 0) {
+} else if (args._.length === 0) {
 	console.log(rpsls());
-} 
-else {
+} else {
 	console.log(rpsls(args._[0]));
 }
